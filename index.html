@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header>
+      <h1>SailingHub</h1>
+    </header>
+
+    <main id="main-container">
+      <section>
+        <img src="alin-meceanu-u2hhPcpmADQ-unsplash.jpg" alt="Sailing Image" />
+      </section>
+      <section class="register-div">
+        <h2>Join SailingHub Today</h2>
+        <button id="register-button">Register</button>
+      </section>
+    </main>
+
+    <form id="form-container" style="display: none">
+      <label for="name">Full Name:</label>
+      <input type="text" id="fullname" name="fullname" required />
+      <span id="namecheck" style="display: none; color: red"></span>
+
+      <label for="name">Email:</label>
+      <input type="email" id="email" required />
+      <span id="emailcheck" style="display: none; color: red"></span>
+
+      <label for="name">Phone Number:</label>
+      <input type="tel" id="phone" required />
+      <span id="phonecheck" style="display: none; color: red"></span>
+
+      <label for="name">Password:</label>
+      <input type="password" id="password" required />
+      <span id="passwordcheck" style="display: none; color: red"></span>
+
+      <button type="submit">Register</button>
+      <button id="cancel-button">Cancel</button>
+    </form>
+
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="jquery.js"></script>
+  </body>
+</html>
